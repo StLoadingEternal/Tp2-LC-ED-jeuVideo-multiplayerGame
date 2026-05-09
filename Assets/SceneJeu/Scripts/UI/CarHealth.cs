@@ -1,0 +1,119 @@
+using System.Collections;
+using Unity.Netcode;
+using UnityEngine;
+using TMPro;
+
+public class CarHealth : NetworkBehaviour
+{
+    [Header("Points")]
+    public int startingPoints = 100;
+    public int collisionDamage = 10;
+
+    private NetworkVariable<int> points = new NetworkVariable<int>(
+        100,
+        NetworkVariableReadPermission.Everyone,
+        NetworkVariableWritePermission.Server
+    );
+
+    private TextMeshProUGUI scoreText;
+
+    public override void OnNetworkSpawn()
+    {
+        if (IsOwner)
+        {
+            GameObject scoreObj = GameObject.Find("ScoreText");
+            if (scoreObj != null)
+                scoreText = scoreObj.GetComponent<TextMeshProUGUI>();
+        }
+
+        if (IsServer)
+            points.Value = startingPoints;
+
+        points.OnValueChanged += OnPointsChanged;
+        UpdateScoreUI();
+    }
+
+    void OnPointsChanged(int oldValue, int newValue)
+    {
+        UpdateScoreUI();
+
+        if (newValue <= 0)
+        {
+            if (IsOwner)
+                ShowDeathScreen();
+
+            if (IsServer)
+                StartCoroutine(DestroyCarAfterDelay());
+        }
+    }
+
+    void ShowDeathScreen()
+    {
+        // Cherche dans tous les objets incluant les inactifs
+        TextMeshProUGUI[] allTexts = FindObjectsByType<TextMeshProUGUI>(
+            FindObjectsInactive.Include, 
+            FindObjectsSortMode.None
+        );
+        
+        foreach (var text in allTexts)
+        {
+            if (text.gameObject.name == "DeathText")
+            {
+                text.gameObject.SetActive(true);
+                break;
+            }
+        }
+    }
+
+    IEnumerator DestroyCarAfterDelay()
+    {
+        yield return new WaitForSeconds(2f);
+        GetComponent<NetworkObject>().Despawn();
+    }
+
+    void UpdateScoreUI()
+    {
+        if (scoreText != null)
+            scoreText.text = "Points: " + points.Value;
+    }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        if (!IsServer) return;
+
+        CarHealth otherCar = collision.gameObject.GetComponent<CarHealth>();
+        if (otherCar == null) return;
+
+        ContactPoint contact = collision.GetContact(0);
+        bool isFrontHit = Vector3.Dot(contact.normal, transform.forward) < -0.5f;
+        bool otherFrontHit = Vector3.Dot(contact.normal, otherCar.transform.forward) < 0.5f;
+
+        if (isFrontHit && otherFrontHit)
+        {
+            TakeDamage(collisionDamage);
+            otherCar.TakeDamage(collisionDamage);
+            Debug.Log("Collision frontale !");
+        }
+        else if (isFrontHit)
+        {
+            otherCar.TakeDamage(collisionDamage);
+            Debug.Log("Collision latérale !");
+        }
+    }
+
+    public void TakeDamage(int damage)
+    {
+        if (!IsServer) return;
+        points.Value = Mathf.Max(0, points.Value - damage);
+    }
+
+    public override void OnDestroy()
+    {
+        points.OnValueChanged -= OnPointsChanged;
+    }
+
+    public int GetPoints()
+    {
+        return points.Value;
+    }
+}

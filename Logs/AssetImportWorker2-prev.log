@@ -1,0 +1,2436 @@
+Unity Editor version:    6000.0.49f1 (840e0a9776d9)
+Branch:                  6000.0/staging
+Build type:              Release
+Batch mode:              YES
+System name:             Linux
+Distro version:          #1 SMP PREEMPT_DYNAMIC Thu, 02 Apr 2026 23:33:01 +0000
+Kernel version:          6.19.11-arch1-1
+Architecture:            x86_64
+Window Protocol:         Wayland (XWayland)
+Available memory:        15697 MB
+Using pre-set license
+Pro License: YES
+The selected window backend is (null) 
+Desktop is 1920 x 1080 @ 60 Hz
+Initialize udev device monitor.
+
+COMMAND LINE ARGUMENTS:
+Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+/home/lass/Cours/Application jeu 2/6c5-tp2-LC-gr1
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+45879
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: /home/lass/Cours/Application jeu 2/6c5-tp2-LC-gr1
+
+(Unity:712720): Gtk-CRITICAL **: 04:54:43.336: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
+
+(Unity:712720): Gtk-CRITICAL **: 04:54:43.336: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
+/home/lass/Cours/Application jeu 2/6c5-tp2-LC-gr1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [140195430397568]  Target information:
+
+Player connection [140195430397568]  * "[IP] 192.168.2.205 [Port] 0 [Flags] 2 [Guid] 3036855135 [EditorId] 3036855135 [Version] 1048832 [Id] LinuxEditor(16,192.168.2.205) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [140195430397568]  * "[IP] 172.17.0.1 [Port] 0 [Flags] 2 [Guid] 3036855135 [EditorId] 3036855135 [Version] 1048832 [Id] LinuxEditor(16,192.168.2.205) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [140195430397568]  * "[IP] 172.18.0.1 [Port] 0 [Flags] 2 [Guid] 3036855135 [EditorId] 3036855135 [Version] 1048832 [Id] LinuxEditor(16,192.168.2.205) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [140195430397568] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [140195430397568] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.49f1 (840e0a9776d9)
+[Subsystems] Discovering subsystems at path /home/lass/Unity/Hub/Editor/6000.0.49f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /home/lass/Cours/Application jeu 2/6c5-tp2-LC-gr1/Assets
+kGfxThreadingModeNonThreaded is not supported on OpenGL Core. Reverting to kGfxThreadingModeDirect instead.
+GfxDevice: creating device client; kGfxThreadingModeDirect
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_video_sync 
+Renderer: Mesa Intel(R) Iris(R) Xe Graphics (ADL GT2)
+Vendor:   Intel
+Version:  4.6 (Core Profile) Mesa 26.0.4-arch1.1
+GLES:     0
+ GL_3DFX_texture_compression_FXT1 GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB
+_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_po
+int_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier G
+L_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_filter_minmax GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f
+_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_texture_float GL_EXT_EGL_image_storage GL_EXT_EGL_image_storage_compression GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_clock GL_EXT_shader_framebuffer_fetch GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic 
+GL_EXT_texture_integer GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_INTEL_conservative_rasterization GL_INTEL_performance_query GL_INTEL_shader_atomic_float_minmax GL_INTEL_shader_integer_functions2 GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_shader_subgroup GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_const_bandwidth GL_MESA_texture_signed_rgba GL_NV_alpha_to_coverage_dither_control GL_NV_compute_shader_deri
+vatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_fragment_shader_interlock GL_NV_packed_depth_stencil GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 1989783808
+Initialize mono
+Mono path[0] = '/home/lass/Unity/Hub/Editor/6000.0.49f1/Editor/Data/Managed'
+Mono path[1] = '/home/lass/Unity/Hub/Editor/6000.0.49f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
+Mono config path = '/home/lass/Unity/Hub/Editor/6000.0.49f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56720
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /home/lass/Unity/Hub/Editor/6000.0.49f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /home/lass/Unity/Hub/Editor/6000.0.49f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.000934 seconds.
+- Loaded All Assemblies, in  0.232 seconds
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 110 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.454 seconds
+Domain Reload Profiling: 686ms
+	BeginReloadAssembly (52ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (114ms)
+		LoadAssemblies (52ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (111ms)
+			TypeCache.Refresh (110ms)
+				TypeCache.ScanAssembly (100ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (454ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (416ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (199ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (111ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.658 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.515 seconds
+Domain Reload Profiling: 1172ms
+	BeginReloadAssembly (113ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (442ms)
+		LoadAssemblies (240ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (250ms)
+			TypeCache.Refresh (197ms)
+				TypeCache.ScanAssembly (179ms)
+			BuildScriptInfoCaches (45ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (515ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (419ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (243ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+AutoLocale: current locale expects 'C' but got 'en_US.UTF-8'Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6084 unused Assets / (2.4 MB). Loaded Objects now: 6569.
+Memory consumption went from 110.8 MB to 108.4 MB.
+Total: 9.141054 ms (FindLiveObjects: 0.490786 ms CreateObjectMapping: 0.567572 ms MarkObjects: 5.262137 ms  DeleteObjects: 2.818416 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 15909.372515 seconds.
+  path: Assets/DefaultNetworkPrefabs.asset
+  artifactKey: Guid(4fcb10bb4d21ba8679a68f051475b6fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DefaultNetworkPrefabs.asset using Guid(4fcb10bb4d21ba8679a68f051475b6fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15cbd0eeddcd7c08500cba07c73c0d09') in 0.026858848 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 145
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.410451 seconds.
+  path: Assets/Materials/Gris foncé.mat
+  artifactKey: Guid(dc151dc5b9a362c4892d00db765ec22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Gris foncé.mat using Guid(dc151dc5b9a362c4892d00db765ec22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7bd7f5038e14a5d095cff643c30d3d7') in 0.130845203 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.04 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6063 unused Assets / (1.7 MB). Loaded Objects now: 6614.
+Memory consumption went from 106.4 MB to 104.6 MB.
+Total: 10.640640 ms (FindLiveObjects: 0.646847 ms CreateObjectMapping: 0.619054 ms MarkObjects: 7.424860 ms  DeleteObjects: 1.948648 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 29.518965 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f272e6c5e2397dc156204e9982e9c613') in 0.00170192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.156 seconds
+Refreshing native plugins compatible for Editor in 1.07 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.981 seconds
+Domain Reload Profiling: 2141ms
+	BeginReloadAssembly (260ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (115ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (762ms)
+		LoadAssemblies (417ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (419ms)
+			TypeCache.Refresh (22ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (379ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (982ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (782ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (55ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (169ms)
+			ProcessInitializeOnLoadAttributes (454ms)
+			ProcessInitializeOnLoadMethodAttributes (87ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.04 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6083 unused Assets / (3.0 MB). Loaded Objects now: 6617.
+Memory consumption went from 108.3 MB to 105.3 MB.
+Total: 13.249290 ms (FindLiveObjects: 1.033900 ms CreateObjectMapping: 0.902109 ms MarkObjects: 6.958787 ms  DeleteObjects: 4.352627 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.417233 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.004231219 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.370997 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000714121 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.997392 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000607919 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.004681 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00080248 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.999596 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001022388 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.999116 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000943545 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.998062 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00076739 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.000088 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00111641 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.999514 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001115223 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.998369 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00080562 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.998110 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000872089 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.997588 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001076605 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.998623 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000735853 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.999139 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000683007 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.997171 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000708648 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.999743 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000653107 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.998570 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000733203 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.998276 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001079709 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.002097 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00086135 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.002527 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001183281 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.995064 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00082728 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.000040 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001140978 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.998933 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00081815 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.002462 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001342375 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.996355 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000797821 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.000405 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000765723 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.158076 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001773656 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.063527 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001735457 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.067979 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001642849 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.143510 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000613436 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021104 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000811903 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018646 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000522164 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022041 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000593994 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022451 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000540415 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024051 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000483769 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019465 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000518834 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021540 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00076035 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020218 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000560671 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021610 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00055681 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019064 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00045602 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017997 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000440752 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019377 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000539058 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027796 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000569647 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026359 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000553605 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041357 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001131686 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034699 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000618081 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030824 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000532894 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035422 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000636356 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023250 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001163819 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029965 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001233234 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024711 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000563459 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019834 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000647353 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021765 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000622018 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016615 seconds.
+  path: Assets/SceneJeu/Scripts/NetworkUI.cs
+  artifactKey: Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/NetworkUI.cs using Guid(2da5b98691dd1d7b9b3a721f85bf82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000861424 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+  ERROR: Build asset version error: assets/scenejeu/scripts/networkui.cs in SourceAssetDB has modification time of '2026-05-04T04:57:01Z' while content on disk has modification time of '2026-05-04T04:57:08Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.488 seconds
+Refreshing native plugins compatible for Editor in 1.01 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.086 seconds
+Domain Reload Profiling: 2579ms
+	BeginReloadAssembly (546ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (198ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (783ms)
+		LoadAssemblies (680ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (312ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (284ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1087ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (897ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (55ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (148ms)
+			ProcessInitializeOnLoadAttributes (599ms)
+			ProcessInitializeOnLoadMethodAttributes (81ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.93 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6083 unused Assets / (3.4 MB). Loaded Objects now: 6620.
+Memory consumption went from 108.3 MB to 104.9 MB.
+Total: 20.808851 ms (FindLiveObjects: 1.202446 ms CreateObjectMapping: 1.496475 ms MarkObjects: 10.878254 ms  DeleteObjects: 7.228965 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.03 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6063 unused Assets / (1.8 MB). Loaded Objects now: 6620.
+Memory consumption went from 108.4 MB to 106.6 MB.
+Total: 10.972607 ms (FindLiveObjects: 0.848048 ms CreateObjectMapping: 0.627427 ms MarkObjects: 7.223745 ms  DeleteObjects: 2.271702 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.910 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.808 seconds
+Domain Reload Profiling: 1720ms
+	BeginReloadAssembly (192ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (592ms)
+		LoadAssemblies (367ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (293ms)
+			TypeCache.Refresh (24ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (259ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (808ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (645ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (50ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (144ms)
+			ProcessInitializeOnLoadAttributes (371ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 0.98 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6083 unused Assets / (2.0 MB). Loaded Objects now: 6623.
+Memory consumption went from 108.3 MB to 106.3 MB.
+Total: 12.296209 ms (FindLiveObjects: 0.497417 ms CreateObjectMapping: 0.750006 ms MarkObjects: 6.885269 ms  DeleteObjects: 4.162197 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.03 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6064 unused Assets / (1.7 MB). Loaded Objects now: 6624.
+Memory consumption went from 108.4 MB to 106.7 MB.
+Total: 11.047233 ms (FindLiveObjects: 0.650824 ms CreateObjectMapping: 0.634906 ms MarkObjects: 7.550732 ms  DeleteObjects: 2.209356 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 2921.248214 seconds.
+  path: Assets/SceneJeu/Scripts/CarSpawner.cs
+  artifactKey: Guid(bda951f105b840ef28c4ead46573043d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/CarSpawner.cs using Guid(bda951f105b840ef28c4ead46573043d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd09a4f58d723171341b48b45027983a') in 0.007087591 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.977 seconds
+Refreshing native plugins compatible for Editor in 0.97 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.059 seconds
+Domain Reload Profiling: 2040ms
+	BeginReloadAssembly (222ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (613ms)
+		LoadAssemblies (416ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (286ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (261ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1060ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (878ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (55ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (202ms)
+			ProcessInitializeOnLoadAttributes (531ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.89 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6084 unused Assets / (3.9 MB). Loaded Objects now: 6627.
+Memory consumption went from 108.3 MB to 104.4 MB.
+Total: 19.311627 ms (FindLiveObjects: 1.444737 ms CreateObjectMapping: 1.227542 ms MarkObjects: 10.300723 ms  DeleteObjects: 6.335986 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6064 unused Assets / (1.8 MB). Loaded Objects now: 6627.
+Memory consumption went from 108.4 MB to 106.6 MB.
+Total: 10.398041 ms (FindLiveObjects: 0.630350 ms CreateObjectMapping: 0.619471 ms MarkObjects: 6.984322 ms  DeleteObjects: 2.162070 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.855 seconds
+Refreshing native plugins compatible for Editor in 1.20 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.842 seconds
+Domain Reload Profiling: 1700ms
+	BeginReloadAssembly (192ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (534ms)
+		LoadAssemblies (336ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (269ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (243ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (843ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (671ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (51ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (155ms)
+			ProcessInitializeOnLoadAttributes (377ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.03 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6084 unused Assets / (2.5 MB). Loaded Objects now: 6630.
+Memory consumption went from 110.3 MB to 107.8 MB.
+Total: 16.328062 ms (FindLiveObjects: 0.992098 ms CreateObjectMapping: 0.848630 ms MarkObjects: 9.288025 ms  DeleteObjects: 5.197622 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 105.609934 seconds.
+  path: Assets/SceneJeu/prefab/carPrefabList.asset
+  artifactKey: Guid(ad151a3acbd1960c9ba07ae0fc7e1b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/prefab/carPrefabList.asset using Guid(ad151a3acbd1960c9ba07ae0fc7e1b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04eaae0e0dcbf493d3764902eba410da') in 0.039793224 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 76
+
+========================================================================
+Received Import Request.
+  Time since last request: 2280.148923 seconds.
+  path: Assets/SceneJeu/prefab/Free Racing Car Variant 1.prefab
+  artifactKey: Guid(f44177c9a71001dd4b6b29083c431937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/prefab/Free Racing Car Variant 1.prefab using Guid(f44177c9a71001dd4b6b29083c431937) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'faf6a3d1e9bc7645933a3c7935868c54') in 0.12127183 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 81
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.032 seconds
+Refreshing native plugins compatible for Editor in 1.08 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.908 seconds
+Domain Reload Profiling: 1944ms
+	BeginReloadAssembly (288ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (80ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (79ms)
+	LoadAllAssembliesAndSetupDomain (589ms)
+		LoadAssemblies (427ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (277ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (253ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (909ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (738ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (62ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (191ms)
+			ProcessInitializeOnLoadAttributes (363ms)
+			ProcessInitializeOnLoadMethodAttributes (107ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.04 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6084 unused Assets / (2.8 MB). Loaded Objects now: 6633.
+Memory consumption went from 110.3 MB to 107.4 MB.
+Total: 15.710220 ms (FindLiveObjects: 0.676756 ms CreateObjectMapping: 0.906655 ms MarkObjects: 8.124200 ms  DeleteObjects: 6.001106 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.947 seconds
+Refreshing native plugins compatible for Editor in 0.94 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.890 seconds
+Domain Reload Profiling: 1840ms
+	BeginReloadAssembly (257ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (92ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (557ms)
+		LoadAssemblies (376ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (260ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (239ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (890ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (711ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (67ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (196ms)
+			ProcessInitializeOnLoadAttributes (362ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.04 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6084 unused Assets / (3.0 MB). Loaded Objects now: 6636.
+Memory consumption went from 110.3 MB to 107.3 MB.
+Total: 15.550772 ms (FindLiveObjects: 0.619513 ms CreateObjectMapping: 0.830117 ms MarkObjects: 9.842035 ms  DeleteObjects: 4.257480 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.931 seconds
+Refreshing native plugins compatible for Editor in 0.93 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.859 seconds
+Domain Reload Profiling: 1794ms
+	BeginReloadAssembly (214ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (74ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (585ms)
+		LoadAssemblies (400ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (261ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (240ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (860ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (691ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (63ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (163ms)
+			ProcessInitializeOnLoadAttributes (375ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.05 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6084 unused Assets / (2.9 MB). Loaded Objects now: 6639.
+Memory consumption went from 110.3 MB to 107.4 MB.
+Total: 13.402169 ms (FindLiveObjects: 0.656001 ms CreateObjectMapping: 0.824086 ms MarkObjects: 7.306141 ms  DeleteObjects: 4.614214 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.06 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6064 unused Assets / (1.9 MB). Loaded Objects now: 6639.
+Memory consumption went from 110.4 MB to 108.5 MB.
+Total: 12.045376 ms (FindLiveObjects: 1.062759 ms CreateObjectMapping: 1.066848 ms MarkObjects: 7.700253 ms  DeleteObjects: 2.213910 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 465.609675 seconds.
+  path: Assets/SceneJeu/prefab/Free Racing Car Variant 1.prefab
+  artifactKey: Guid(f44177c9a71001dd4b6b29083c431937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/prefab/Free Racing Car Variant 1.prefab using Guid(f44177c9a71001dd4b6b29083c431937) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8be42dfa92566c280babe8db7db4582c') in 0.126255235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 81
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.095 seconds
+Refreshing native plugins compatible for Editor in 0.95 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.060 seconds
+Domain Reload Profiling: 2156ms
+	BeginReloadAssembly (254ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (86ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (699ms)
+		LoadAssemblies (457ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (322ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (291ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1061ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (839ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (67ms)
+			SetLoadedEditorAssemblies (16ms)
+			BeforeProcessingInitializeOnLoad (193ms)
+			ProcessInitializeOnLoadAttributes (480ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 1.05 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6084 unused Assets / (3.0 MB). Loaded Objects now: 6642.
+Memory consumption went from 110.3 MB to 107.3 MB.
+Total: 14.396706 ms (FindLiveObjects: 1.049356 ms CreateObjectMapping: 1.112592 ms MarkObjects: 7.372199 ms  DeleteObjects: 4.860405 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.957 seconds
+Refreshing native plugins compatible for Editor in 0.96 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.920 seconds
+Domain Reload Profiling: 1881ms
+	BeginReloadAssembly (230ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (83ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (82ms)
+	LoadAllAssembliesAndSetupDomain (584ms)
+		LoadAssemblies (392ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (269ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (246ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (921ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (742ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (58ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (159ms)
+			ProcessInitializeOnLoadAttributes (428ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.04 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6084 unused Assets / (2.7 MB). Loaded Objects now: 6645.
+Memory consumption went from 110.3 MB to 107.6 MB.
+Total: 15.209300 ms (FindLiveObjects: 0.703330 ms CreateObjectMapping: 1.426889 ms MarkObjects: 8.455183 ms  DeleteObjects: 4.621839 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 130.801634 seconds.
+  path: Assets/SceneJeu/prefab/Free Racing Car Variant 1.prefab
+  artifactKey: Guid(f44177c9a71001dd4b6b29083c431937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/prefab/Free Racing Car Variant 1.prefab using Guid(f44177c9a71001dd4b6b29083c431937) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99e28ad19c98a1543403bffc890c444a') in 0.154147456 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 81
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.649887 seconds.
+  path: Assets/SceneJeu/prefab/Free Racing Car Variant 1.prefab
+  artifactKey: Guid(f44177c9a71001dd4b6b29083c431937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/prefab/Free Racing Car Variant 1.prefab using Guid(f44177c9a71001dd4b6b29083c431937) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4d4811251db76c1e7c9325e0c7b622c') in 0.021799155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 81
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.937 seconds
+Refreshing native plugins compatible for Editor in 0.93 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.888 seconds
+Domain Reload Profiling: 1828ms
+	BeginReloadAssembly (223ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (73ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (568ms)
+		LoadAssemblies (389ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (261ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (240ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (889ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (716ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (60ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (165ms)
+			ProcessInitializeOnLoadAttributes (404ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.04 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6084 unused Assets / (2.4 MB). Loaded Objects now: 6648.
+Memory consumption went from 110.3 MB to 107.9 MB.
+Total: 14.306618 ms (FindLiveObjects: 0.862694 ms CreateObjectMapping: 1.071586 ms MarkObjects: 7.473872 ms  DeleteObjects: 4.896224 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.958 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.029 seconds
+Domain Reload Profiling: 1990ms
+	BeginReloadAssembly (227ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (85ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (594ms)
+		LoadAssemblies (393ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (278ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (256ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1030ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (822ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (57ms)
+			SetLoadedEditorAssemblies (14ms)
+			BeforeProcessingInitializeOnLoad (216ms)
+			ProcessInitializeOnLoadAttributes (446ms)
+			ProcessInitializeOnLoadMethodAttributes (84ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.05 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6084 unused Assets / (3.8 MB). Loaded Objects now: 6651.
+Memory consumption went from 110.3 MB to 106.5 MB.
+Total: 17.859478 ms (FindLiveObjects: 0.657976 ms CreateObjectMapping: 0.995421 ms MarkObjects: 10.078300 ms  DeleteObjects: 6.124775 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.994 seconds
+Refreshing native plugins compatible for Editor in 0.93 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.898 seconds
+Domain Reload Profiling: 1896ms
+	BeginReloadAssembly (232ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (84ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (83ms)
+	LoadAllAssembliesAndSetupDomain (594ms)
+		LoadAssemblies (393ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (283ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (262ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (899ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (732ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (69ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (175ms)
+			ProcessInitializeOnLoadAttributes (384ms)
+			ProcessInitializeOnLoadMethodAttributes (88ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6084 unused Assets / (2.3 MB). Loaded Objects now: 6654.
+Memory consumption went from 110.3 MB to 108.0 MB.
+Total: 13.556938 ms (FindLiveObjects: 0.560062 ms CreateObjectMapping: 0.759889 ms MarkObjects: 7.790987 ms  DeleteObjects: 4.443310 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.092 seconds
+Refreshing native plugins compatible for Editor in 1.01 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.001 seconds
+Domain Reload Profiling: 2093ms
+	BeginReloadAssembly (268ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (90ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (104ms)
+	LoadAllAssembliesAndSetupDomain (650ms)
+		LoadAssemblies (482ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (281ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (258ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1002ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (809ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (55ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (190ms)
+			ProcessInitializeOnLoadAttributes (464ms)
+			ProcessInitializeOnLoadMethodAttributes (85ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.07 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6084 unused Assets / (3.0 MB). Loaded Objects now: 6657.
+Memory consumption went from 110.3 MB to 107.3 MB.
+Total: 15.277509 ms (FindLiveObjects: 0.740626 ms CreateObjectMapping: 1.344892 ms MarkObjects: 7.977972 ms  DeleteObjects: 5.211366 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.07 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6064 unused Assets / (2.0 MB). Loaded Objects now: 6657.
+Memory consumption went from 110.4 MB to 108.5 MB.
+Total: 11.909444 ms (FindLiveObjects: 0.703478 ms CreateObjectMapping: 0.649986 ms MarkObjects: 8.030223 ms  DeleteObjects: 2.523711 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 768.177351 seconds.
+  path: Assets/SceneJeu/prefab/Free Racing Car Variant 1.prefab
+  artifactKey: Guid(f44177c9a71001dd4b6b29083c431937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/prefab/Free Racing Car Variant 1.prefab using Guid(f44177c9a71001dd4b6b29083c431937) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '824276cd30221fcfbdff803f6e3e76ad') in 0.154825039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 81
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.912 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.854 seconds
+Domain Reload Profiling: 1769ms
+	BeginReloadAssembly (216ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (81ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (566ms)
+		LoadAssemblies (368ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (269ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (242ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (855ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (672ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (61ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (160ms)
+			ProcessInitializeOnLoadAttributes (365ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6084 unused Assets / (3.1 MB). Loaded Objects now: 6660.
+Memory consumption went from 110.3 MB to 107.2 MB.
+Total: 13.461113 ms (FindLiveObjects: 0.620408 ms CreateObjectMapping: 0.741801 ms MarkObjects: 7.034282 ms  DeleteObjects: 5.062823 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.310376 seconds.
+  path: Assets/SceneJeu/prefab/Free Racing Car Variant 1.prefab
+  artifactKey: Guid(f44177c9a71001dd4b6b29083c431937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/prefab/Free Racing Car Variant 1.prefab using Guid(f44177c9a71001dd4b6b29083c431937) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '099d467e502772622803af3978099a9c') in 0.121142879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 81
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.983 seconds
+Refreshing native plugins compatible for Editor in 0.96 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.048 seconds
+Domain Reload Profiling: 2031ms
+	BeginReloadAssembly (236ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (80ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (91ms)
+	LoadAllAssembliesAndSetupDomain (594ms)
+		LoadAssemblies (398ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (270ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (248ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1048ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (853ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (61ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (205ms)
+			ProcessInitializeOnLoadAttributes (467ms)
+			ProcessInitializeOnLoadMethodAttributes (109ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.92 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6084 unused Assets / (2.4 MB). Loaded Objects now: 6663.
+Memory consumption went from 110.3 MB to 107.9 MB.
+Total: 15.510902 ms (FindLiveObjects: 1.150498 ms CreateObjectMapping: 0.918660 ms MarkObjects: 8.234716 ms  DeleteObjects: 5.205571 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.941 seconds
+Refreshing native plugins compatible for Editor in 0.97 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.Multiplayer.Playmode.Workflow.Editor.ProjectDataStore..ctor (System.String directory) [0x0006e] in ./Library/PackageCache/com.unity.multiplayer.playmode@7f4b34d911b7/Workflow/Editor/Configuration/ProjectDataStore.cs:55 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.ProjectDataStore.GetMain () [0x00000] in ./Library/PackageCache/com.unity.multiplayer.playmode@7f4b34d911b7/Workflow/Editor/Configuration/ProjectDataStore.cs:36 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.WorkflowMainEditorContext..ctor (Unity.Multiplayer.Playmode.VirtualProjects.Editor.MainEditorContext mainEditorContext) [0x0002c] in ./Library/PackageCache/com.unity.multiplayer.playmode@7f4b34d911b7/Workflow/Editor/Contexts/WorkflowMainEditorContext.cs:15 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.VirtualProjectWorkflow.InitializeMPPMContexts () [0x00018] in ./Library/PackageCache/com.unity.multiplayer.playmode@7f4b34d911b7/Workflow/Editor/Workflow/VirtualProjectWorkflow.cs:198 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.VirtualProjectWorkflow+<>c.<.cctor>b__22_0 () [0x00036] in ./Library/PackageCache/com.unity.multiplayer.playmode@7f4b34d911b7/Workflow/Editor/Workflow/VirtualProjectWorkflow.cs:85 
+  at Unity.Multiplayer.Playmode.VirtualProjects.Editor.EditorContexts.SendReadyEvent () [0x00038] in ./Library/PackageCache/com.unity.multiplayer.playmode@7f4b34d911b7/VirtualProjects/Editor/Contexts/EditorContexts.cs:56 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <ba3afd297d2b4b96afb9710b210f3f58>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <ba3afd297d2b4b96afb9710b210f3f58>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <ba3afd297d2b4b96afb9710b210f3f58>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:142 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:146)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 146)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.179 seconds
+Domain Reload Profiling: 2124ms
+	BeginReloadAssembly (202ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (613ms)
+		LoadAssemblies (407ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (278ms)
+			TypeCache.Refresh (23ms)
+				TypeCache.ScanAssembly (8ms)
+			BuildScriptInfoCaches (243ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1180ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (956ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (59ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (206ms)
+			ProcessInitializeOnLoadAttributes (407ms)
+			ProcessInitializeOnLoadMethodAttributes (271ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.04 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6298 unused Assets / (2.8 MB). Loaded Objects now: 6882.
+Memory consumption went from 111.5 MB to 108.7 MB.
+Total: 13.254600 ms (FindLiveObjects: 0.672242 ms CreateObjectMapping: 0.778215 ms MarkObjects: 7.279086 ms  DeleteObjects: 4.523826 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.844 seconds
+Refreshing native plugins compatible for Editor in 0.97 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.Multiplayer.Playmode.Workflow.Editor.ProjectDataStore..ctor (System.String directory) [0x0006e] in ./Library/PackageCache/com.unity.multiplayer.playmode@7f4b34d911b7/Workflow/Editor/Configuration/ProjectDataStore.cs:55 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.ProjectDataStore.GetMain () [0x00000] in ./Library/PackageCache/com.unity.multiplayer.playmode@7f4b34d911b7/Workflow/Editor/Configuration/ProjectDataStore.cs:36 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.WorkflowMainEditorContext..ctor (Unity.Multiplayer.Playmode.VirtualProjects.Editor.MainEditorContext mainEditorContext) [0x0002c] in ./Library/PackageCache/com.unity.multiplayer.playmode@7f4b34d911b7/Workflow/Editor/Contexts/WorkflowMainEditorContext.cs:15 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.VirtualProjectWorkflow.InitializeMPPMContexts () [0x00018] in ./Library/PackageCache/com.unity.multiplayer.playmode@7f4b34d911b7/Workflow/Editor/Workflow/VirtualProjectWorkflow.cs:198 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.VirtualProjectWorkflow+<>c.<.cctor>b__22_0 () [0x00036] in ./Library/PackageCache/com.unity.multiplayer.playmode@7f4b34d911b7/Workflow/Editor/Workflow/VirtualProjectWorkflow.cs:85 
+  at Unity.Multiplayer.Playmode.VirtualProjects.Editor.EditorContexts.SendReadyEvent () [0x00038] in ./Library/PackageCache/com.unity.multiplayer.playmode@7f4b34d911b7/VirtualProjects/Editor/Contexts/EditorContexts.cs:56 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <ba3afd297d2b4b96afb9710b210f3f58>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <ba3afd297d2b4b96afb9710b210f3f58>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <ba3afd297d2b4b96afb9710b210f3f58>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:142 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:146)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 146)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.303 seconds
+Domain Reload Profiling: 3148ms
+	BeginReloadAssembly (674ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (30ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (203ms)
+	RebuildCommonClasses (73ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (121ms)
+	LoadAllAssembliesAndSetupDomain (954ms)
+		LoadAssemblies (813ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (412ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (378ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1304ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1108ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (62ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (179ms)
+			ProcessInitializeOnLoadAttributes (525ms)
+			ProcessInitializeOnLoadMethodAttributes (328ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6298 unused Assets / (3.5 MB). Loaded Objects now: 6885.
+Memory consumption went from 111.6 MB to 108.1 MB.
+Total: 17.732989 ms (FindLiveObjects: 0.748525 ms CreateObjectMapping: 0.962342 ms MarkObjects: 10.192268 ms  DeleteObjects: 5.818982 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.197 seconds
+Refreshing native plugins compatible for Editor in 0.97 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.Multiplayer.Playmode.Workflow.Editor.ProjectDataStore..ctor (System.String directory) [0x0006e] in ./Library/PackageCache/com.unity.multiplayer.playmode@7f4b34d911b7/Workflow/Editor/Configuration/ProjectDataStore.cs:55 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.ProjectDataStore.GetMain () [0x00000] in ./Library/PackageCache/com.unity.multiplayer.playmode@7f4b34d911b7/Workflow/Editor/Configuration/ProjectDataStore.cs:36 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.WorkflowMainEditorContext..ctor (Unity.Multiplayer.Playmode.VirtualProjects.Editor.MainEditorContext mainEditorContext) [0x0002c] in ./Library/PackageCache/com.unity.multiplayer.playmode@7f4b34d911b7/Workflow/Editor/Contexts/WorkflowMainEditorContext.cs:15 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.VirtualProjectWorkflow.InitializeMPPMContexts () [0x00018] in ./Library/PackageCache/com.unity.multiplayer.playmode@7f4b34d911b7/Workflow/Editor/Workflow/VirtualProjectWorkflow.cs:198 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.VirtualProjectWorkflow+<>c.<.cctor>b__22_0 () [0x00036] in ./Library/PackageCache/com.unity.multiplayer.playmode@7f4b34d911b7/Workflow/Editor/Workflow/VirtualProjectWorkflow.cs:85 
+  at Unity.Multiplayer.Playmode.VirtualProjects.Editor.EditorContexts.SendReadyEvent () [0x00038] in ./Library/PackageCache/com.unity.multiplayer.playmode@7f4b34d911b7/VirtualProjects/Editor/Contexts/EditorContexts.cs:56 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <ba3afd297d2b4b96afb9710b210f3f58>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <ba3afd297d2b4b96afb9710b210f3f58>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <ba3afd297d2b4b96afb9710b210f3f58>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:142 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:146)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 146)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.375 seconds
+Domain Reload Profiling: 2578ms
+	BeginReloadAssembly (224ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (81ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (838ms)
+		LoadAssemblies (460ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (448ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (413ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1376ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1165ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (60ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (239ms)
+			ProcessInitializeOnLoadAttributes (558ms)
+			ProcessInitializeOnLoadMethodAttributes (291ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.08 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6298 unused Assets / (2.4 MB). Loaded Objects now: 6888.
+Memory consumption went from 111.6 MB to 109.2 MB.
+Total: 15.263037 ms (FindLiveObjects: 0.728654 ms CreateObjectMapping: 1.047854 ms MarkObjects: 7.753022 ms  DeleteObjects: 5.731147 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.982 seconds
+Refreshing native plugins compatible for Editor in 1.08 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.Multiplayer.Playmode.Workflow.Editor.ProjectDataStore..ctor (System.String directory) [0x0006e] in ./Library/PackageCache/com.unity.multiplayer.playmode@7f4b34d911b7/Workflow/Editor/Configuration/ProjectDataStore.cs:55 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.ProjectDataStore.GetMain () [0x00000] in ./Library/PackageCache/com.unity.multiplayer.playmode@7f4b34d911b7/Workflow/Editor/Configuration/ProjectDataStore.cs:36 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.WorkflowMainEditorContext..ctor (Unity.Multiplayer.Playmode.VirtualProjects.Editor.MainEditorContext mainEditorContext) [0x0002c] in ./Library/PackageCache/com.unity.multiplayer.playmode@7f4b34d911b7/Workflow/Editor/Contexts/WorkflowMainEditorContext.cs:15 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.VirtualProjectWorkflow.InitializeMPPMContexts () [0x00018] in ./Library/PackageCache/com.unity.multiplayer.playmode@7f4b34d911b7/Workflow/Editor/Workflow/VirtualProjectWorkflow.cs:198 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.VirtualProjectWorkflow+<>c.<.cctor>b__22_0 () [0x00036] in ./Library/PackageCache/com.unity.multiplayer.playmode@7f4b34d911b7/Workflow/Editor/Workflow/VirtualProjectWorkflow.cs:85 
+  at Unity.Multiplayer.Playmode.VirtualProjects.Editor.EditorContexts.SendReadyEvent () [0x00038] in ./Library/PackageCache/com.unity.multiplayer.playmode@7f4b34d911b7/VirtualProjects/Editor/Contexts/EditorContexts.cs:56 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <ba3afd297d2b4b96afb9710b210f3f58>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <ba3afd297d2b4b96afb9710b210f3f58>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <ba3afd297d2b4b96afb9710b210f3f58>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:142 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:146)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 146)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.242 seconds
+Domain Reload Profiling: 2228ms
+	BeginReloadAssembly (235ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (95ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (613ms)
+		LoadAssemblies (403ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (284ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (260ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1242ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1045ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (56ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (160ms)
+			ProcessInitializeOnLoadAttributes (523ms)
+			ProcessInitializeOnLoadMethodAttributes (293ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.05 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6298 unused Assets / (3.5 MB). Loaded Objects now: 6891.
+Memory consumption went from 111.6 MB to 108.1 MB.
+Total: 15.829488 ms (FindLiveObjects: 0.720688 ms CreateObjectMapping: 0.917718 ms MarkObjects: 8.601815 ms  DeleteObjects: 5.587508 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.07 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6279 unused Assets / (2.4 MB). Loaded Objects now: 6892.
+Memory consumption went from 111.8 MB to 109.4 MB.
+Total: 12.573486 ms (FindLiveObjects: 0.764442 ms CreateObjectMapping: 0.720399 ms MarkObjects: 8.178276 ms  DeleteObjects: 2.908352 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 803.251366 seconds.
+  path: Assets/SceneJeu/Scripts/CarHealth.cs
+  artifactKey: Guid(9e13fa8304880875981723abd2c97161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/CarHealth.cs using Guid(9e13fa8304880875981723abd2c97161) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef72d88733a69fde5b710fdd61d157a8') in 0.00894301 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.978 seconds
+Refreshing native plugins compatible for Editor in 0.97 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.Multiplayer.Playmode.Workflow.Editor.ProjectDataStore..ctor (System.String directory) [0x0006e] in ./Library/PackageCache/com.unity.multiplayer.playmode@7f4b34d911b7/Workflow/Editor/Configuration/ProjectDataStore.cs:55 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.ProjectDataStore.GetMain () [0x00000] in ./Library/PackageCache/com.unity.multiplayer.playmode@7f4b34d911b7/Workflow/Editor/Configuration/ProjectDataStore.cs:36 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.WorkflowMainEditorContext..ctor (Unity.Multiplayer.Playmode.VirtualProjects.Editor.MainEditorContext mainEditorContext) [0x0002c] in ./Library/PackageCache/com.unity.multiplayer.playmode@7f4b34d911b7/Workflow/Editor/Contexts/WorkflowMainEditorContext.cs:15 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.VirtualProjectWorkflow.InitializeMPPMContexts () [0x00018] in ./Library/PackageCache/com.unity.multiplayer.playmode@7f4b34d911b7/Workflow/Editor/Workflow/VirtualProjectWorkflow.cs:198 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.VirtualProjectWorkflow+<>c.<.cctor>b__22_0 () [0x00036] in ./Library/PackageCache/com.unity.multiplayer.playmode@7f4b34d911b7/Workflow/Editor/Workflow/VirtualProjectWorkflow.cs:85 
+  at Unity.Multiplayer.Playmode.VirtualProjects.Editor.EditorContexts.SendReadyEvent () [0x00038] in ./Library/PackageCache/com.unity.multiplayer.playmode@7f4b34d911b7/VirtualProjects/Editor/Contexts/EditorContexts.cs:56 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <ba3afd297d2b4b96afb9710b210f3f58>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <ba3afd297d2b4b96afb9710b210f3f58>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <ba3afd297d2b4b96afb9710b210f3f58>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:142 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:146)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 146)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.192 seconds
+Domain Reload Profiling: 2171ms
+	BeginReloadAssembly (224ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (81ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (109ms)
+	LoadAllAssembliesAndSetupDomain (578ms)
+		LoadAssemblies (376ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (282ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (254ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1193ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1002ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (60ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (157ms)
+			ProcessInitializeOnLoadAttributes (450ms)
+			ProcessInitializeOnLoadMethodAttributes (321ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.07 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6299 unused Assets / (2.5 MB). Loaded Objects now: 6895.
+Memory consumption went from 111.6 MB to 109.1 MB.
+Total: 15.782225 ms (FindLiveObjects: 0.617171 ms CreateObjectMapping: 0.847248 ms MarkObjects: 8.929781 ms  DeleteObjects: 5.386069 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.288847 seconds.
+  path: Assets/SceneJeu/Scripts/CarHealth.cs
+  artifactKey: Guid(9e13fa8304880875981723abd2c97161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/Scripts/CarHealth.cs using Guid(9e13fa8304880875981723abd2c97161) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '700df2df347c21eb78609c355bbe93c6') in 0.004766867 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.415999 seconds.
+  path: Assets/SceneJeu/prefab/Free Racing Car Variant 1.prefab
+  artifactKey: Guid(f44177c9a71001dd4b6b29083c431937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/prefab/Free Racing Car Variant 1.prefab using Guid(f44177c9a71001dd4b6b29083c431937) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e44e0d3af41c8313391945b8c5d299b5') in 0.151705626 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 81
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.244777 seconds.
+  path: Assets/SceneJeu/prefab/Free Racing Car Variant 1.prefab
+  artifactKey: Guid(f44177c9a71001dd4b6b29083c431937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/prefab/Free Racing Car Variant 1.prefab using Guid(f44177c9a71001dd4b6b29083c431937) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b424d32a4a4b4ef9af8c675c51eece1e') in 0.022665829 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 82
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.06 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6279 unused Assets / (1.8 MB). Loaded Objects now: 6896.
+Memory consumption went from 111.9 MB to 110.1 MB.
+Total: 12.197729 ms (FindLiveObjects: 0.690457 ms CreateObjectMapping: 0.650393 ms MarkObjects: 8.411566 ms  DeleteObjects: 2.443131 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.069561 seconds.
+  path: Assets/SceneJeu/prefab/Free Racing Car Variant 1.prefab
+  artifactKey: Guid(f44177c9a71001dd4b6b29083c431937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/prefab/Free Racing Car Variant 1.prefab using Guid(f44177c9a71001dd4b6b29083c431937) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1fdb72c8ae19a305e5317b50b24c3937') in 0.021355813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 82
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.093 seconds
+Refreshing native plugins compatible for Editor in 1.02 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.Multiplayer.Playmode.Workflow.Editor.ProjectDataStore..ctor (System.String directory) [0x0006e] in ./Library/PackageCache/com.unity.multiplayer.playmode@7f4b34d911b7/Workflow/Editor/Configuration/ProjectDataStore.cs:55 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.ProjectDataStore.GetMain () [0x00000] in ./Library/PackageCache/com.unity.multiplayer.playmode@7f4b34d911b7/Workflow/Editor/Configuration/ProjectDataStore.cs:36 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.WorkflowMainEditorContext..ctor (Unity.Multiplayer.Playmode.VirtualProjects.Editor.MainEditorContext mainEditorContext) [0x0002c] in ./Library/PackageCache/com.unity.multiplayer.playmode@7f4b34d911b7/Workflow/Editor/Contexts/WorkflowMainEditorContext.cs:15 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.VirtualProjectWorkflow.InitializeMPPMContexts () [0x00018] in ./Library/PackageCache/com.unity.multiplayer.playmode@7f4b34d911b7/Workflow/Editor/Workflow/VirtualProjectWorkflow.cs:198 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.VirtualProjectWorkflow+<>c.<.cctor>b__22_0 () [0x00036] in ./Library/PackageCache/com.unity.multiplayer.playmode@7f4b34d911b7/Workflow/Editor/Workflow/VirtualProjectWorkflow.cs:85 
+  at Unity.Multiplayer.Playmode.VirtualProjects.Editor.EditorContexts.SendReadyEvent () [0x00038] in ./Library/PackageCache/com.unity.multiplayer.playmode@7f4b34d911b7/VirtualProjects/Editor/Contexts/EditorContexts.cs:56 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <ba3afd297d2b4b96afb9710b210f3f58>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <ba3afd297d2b4b96afb9710b210f3f58>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <ba3afd297d2b4b96afb9710b210f3f58>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:142 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:146)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 146)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.124 seconds
+Domain Reload Profiling: 2219ms
+	BeginReloadAssembly (268ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (101ms)
+	RebuildCommonClasses (71ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (118ms)
+	LoadAllAssembliesAndSetupDomain (617ms)
+		LoadAssemblies (404ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (315ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (289ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1125ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (926ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (67ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (192ms)
+			ProcessInitializeOnLoadAttributes (390ms)
+			ProcessInitializeOnLoadMethodAttributes (260ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.04 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6299 unused Assets / (3.6 MB). Loaded Objects now: 6898.
+Memory consumption went from 111.6 MB to 108.0 MB.
+Total: 15.672960 ms (FindLiveObjects: 0.721010 ms CreateObjectMapping: 0.833540 ms MarkObjects: 8.133731 ms  DeleteObjects: 5.981650 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.960535 seconds.
+  path: Assets/SceneJeu/prefab/Free Racing Car Variant 1.prefab
+  artifactKey: Guid(f44177c9a71001dd4b6b29083c431937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/prefab/Free Racing Car Variant 1.prefab using Guid(f44177c9a71001dd4b6b29083c431937) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7aea4ccd60ad55f8b25fb3a91eda8a27') in 0.127515453 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 82
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.07 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6279 unused Assets / (1.7 MB). Loaded Objects now: 6899.
+Memory consumption went from 111.9 MB to 110.2 MB.
+Total: 12.358526 ms (FindLiveObjects: 0.669667 ms CreateObjectMapping: 0.671247 ms MarkObjects: 8.348108 ms  DeleteObjects: 2.666213 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 541.052995 seconds.
+  path: Assets/SceneJeu/prefab/Free Racing Car Variant 1.prefab
+  artifactKey: Guid(f44177c9a71001dd4b6b29083c431937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/prefab/Free Racing Car Variant 1.prefab using Guid(f44177c9a71001dd4b6b29083c431937) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d0bcd38d9c3179c7fe1d1f9212d4536') in 0.023316453 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 82
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.998 seconds
+Refreshing native plugins compatible for Editor in 0.96 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.Multiplayer.Playmode.Workflow.Editor.ProjectDataStore..ctor (System.String directory) [0x0006e] in ./Library/PackageCache/com.unity.multiplayer.playmode@7f4b34d911b7/Workflow/Editor/Configuration/ProjectDataStore.cs:55 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.ProjectDataStore.GetMain () [0x00000] in ./Library/PackageCache/com.unity.multiplayer.playmode@7f4b34d911b7/Workflow/Editor/Configuration/ProjectDataStore.cs:36 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.WorkflowMainEditorContext..ctor (Unity.Multiplayer.Playmode.VirtualProjects.Editor.MainEditorContext mainEditorContext) [0x0002c] in ./Library/PackageCache/com.unity.multiplayer.playmode@7f4b34d911b7/Workflow/Editor/Contexts/WorkflowMainEditorContext.cs:15 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.VirtualProjectWorkflow.InitializeMPPMContexts () [0x00018] in ./Library/PackageCache/com.unity.multiplayer.playmode@7f4b34d911b7/Workflow/Editor/Workflow/VirtualProjectWorkflow.cs:198 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.VirtualProjectWorkflow+<>c.<.cctor>b__22_0 () [0x00036] in ./Library/PackageCache/com.unity.multiplayer.playmode@7f4b34d911b7/Workflow/Editor/Workflow/VirtualProjectWorkflow.cs:85 
+  at Unity.Multiplayer.Playmode.VirtualProjects.Editor.EditorContexts.SendReadyEvent () [0x00038] in ./Library/PackageCache/com.unity.multiplayer.playmode@7f4b34d911b7/VirtualProjects/Editor/Contexts/EditorContexts.cs:56 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <ba3afd297d2b4b96afb9710b210f3f58>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <ba3afd297d2b4b96afb9710b210f3f58>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <ba3afd297d2b4b96afb9710b210f3f58>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:142 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:146)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 146)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.150 seconds
+Domain Reload Profiling: 2151ms
+	BeginReloadAssembly (236ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (93ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (627ms)
+		LoadAssemblies (390ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (316ms)
+			TypeCache.Refresh (24ms)
+				TypeCache.ScanAssembly (3ms)
+			BuildScriptInfoCaches (282ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1151ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (972ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (55ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (169ms)
+			ProcessInitializeOnLoadAttributes (451ms)
+			ProcessInitializeOnLoadMethodAttributes (280ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.03 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6299 unused Assets / (2.7 MB). Loaded Objects now: 6901.
+Memory consumption went from 111.7 MB to 108.9 MB.
+Total: 14.525564 ms (FindLiveObjects: 0.643963 ms CreateObjectMapping: 0.847093 ms MarkObjects: 7.964663 ms  DeleteObjects: 5.068109 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.341340 seconds.
+  path: Assets/SceneJeu/prefab/Free Racing Car Variant 1.prefab
+  artifactKey: Guid(f44177c9a71001dd4b6b29083c431937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneJeu/prefab/Free Racing Car Variant 1.prefab using Guid(f44177c9a71001dd4b6b29083c431937) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9af766ff05671baaca75dc5213cbd383') in 0.126539867 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 82
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.988 seconds
+Refreshing native plugins compatible for Editor in 1.02 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.Multiplayer.Playmode.Workflow.Editor.ProjectDataStore..ctor (System.String directory) [0x0006e] in ./Library/PackageCache/com.unity.multiplayer.playmode@7f4b34d911b7/Workflow/Editor/Configuration/ProjectDataStore.cs:55 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.ProjectDataStore.GetMain () [0x00000] in ./Library/PackageCache/com.unity.multiplayer.playmode@7f4b34d911b7/Workflow/Editor/Configuration/ProjectDataStore.cs:36 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.WorkflowMainEditorContext..ctor (Unity.Multiplayer.Playmode.VirtualProjects.Editor.MainEditorContext mainEditorContext) [0x0002c] in ./Library/PackageCache/com.unity.multiplayer.playmode@7f4b34d911b7/Workflow/Editor/Contexts/WorkflowMainEditorContext.cs:15 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.VirtualProjectWorkflow.InitializeMPPMContexts () [0x00018] in ./Library/PackageCache/com.unity.multiplayer.playmode@7f4b34d911b7/Workflow/Editor/Workflow/VirtualProjectWorkflow.cs:198 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.VirtualProjectWorkflow+<>c.<.cctor>b__22_0 () [0x00036] in ./Library/PackageCache/com.unity.multiplayer.playmode@7f4b34d911b7/Workflow/Editor/Workflow/VirtualProjectWorkflow.cs:85 
+  at Unity.Multiplayer.Playmode.VirtualProjects.Editor.EditorContexts.SendReadyEvent () [0x00038] in ./Library/PackageCache/com.unity.multiplayer.playmode@7f4b34d911b7/VirtualProjects/Editor/Contexts/EditorContexts.cs:56 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <ba3afd297d2b4b96afb9710b210f3f58>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <ba3afd297d2b4b96afb9710b210f3f58>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <ba3afd297d2b4b96afb9710b210f3f58>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:142 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:146)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 146)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.299 seconds
+Domain Reload Profiling: 2290ms
+	BeginReloadAssembly (220ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (80ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (83ms)
+	LoadAllAssembliesAndSetupDomain (624ms)
+		LoadAssemblies (391ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (305ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (282ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1300ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1069ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (57ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (241ms)
+			ProcessInitializeOnLoadAttributes (433ms)
+			ProcessInitializeOnLoadMethodAttributes (323ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.06 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6299 unused Assets / (2.9 MB). Loaded Objects now: 6904.
+Memory consumption went from 111.7 MB to 108.8 MB.
+Total: 17.483200 ms (FindLiveObjects: 1.120443 ms CreateObjectMapping: 0.898173 ms MarkObjects: 8.965716 ms  DeleteObjects: 6.497246 ms)
+
+Prepare: number of updated asset objects reloaded= 0
