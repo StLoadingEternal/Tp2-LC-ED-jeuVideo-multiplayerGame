@@ -80,6 +80,7 @@
     <Compile Include="Assets\SceneJeu\Scripts\UI\CarColor.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+    <Compile Include="Assets\SceneJeu\Scripts\ReturnToIntro.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
     <Compile Include="Assets\SceneJeu\Scripts\Car\PickupController.cs" />
     <Compile Include="Assets\SceneIntro\Scripts\SelectCanvas.cs" />
