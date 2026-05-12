@@ -3,7 +3,9 @@ using UnityEngine;
 
 public class NetworkTimedDestroy : NetworkBehaviour
 {
-    [SerializeField] private float lifeTime = 10f;
+
+    //Temps de vie du shield
+    [SerializeField] private float lifeTime = 20f;
 
     public void SetLifeTime(float newLifeTime)
     {
@@ -14,6 +16,7 @@ public class NetworkTimedDestroy : NetworkBehaviour
     {
         if (IsServer)
         {
+            //Destrucction de l'objet après un certain temps
             Invoke(nameof(DestroyObject), lifeTime);
         }
     }

@@ -309,6 +309,7 @@ GameObject:
   - component: {fileID: 4323840593275625628}
   - component: {fileID: -1439555678153545543}
   - component: {fileID: 597576547072505639}
+  - component: {fileID: 8805661596552371860}
   m_Layer: 0
   m_Name: Free Racing Car Variant 1
   m_TagString: Untagged
@@ -521,6 +522,24 @@ MonoBehaviour:
   UseRigidBodyForMotion: 0
   AutoUpdateKinematicState: 1
   AutoSetKinematicOnDespawn: 1
+--- !u!114 &8805661596552371860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459993962985323373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2567f10916b0eab4586b11dfa9dc17b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowTopMostFoldoutHeaderGroup: 1
+  rearShieldPrefab: {fileID: 6778835638254975190, guid: 72b287782059e774ebc17e89560b44b0, type: 3}
+  cooldownDuration: 60
+  shieldLifeTime: 10
+  spawnDistanceBehind: 5
+  spawnHeight: 0.5
 --- !u!1 &1827211309230622966
 GameObject:
   m_ObjectHideFlags: 0

@@ -2,38 +2,59 @@ using Unity.Netcode;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class RearWallSpawner : NetworkBehaviour
+public class RearShieldSpawner : NetworkBehaviour
 {
-    [Header("Prefab")]
-    [SerializeField] private GameObject rearWallPrefab;
+    [Header("Shield Prefab")]
+    [SerializeField] private GameObject rearShieldPrefab;
 
     [Header("Cooldown")]
     [SerializeField] private float cooldownDuration = 60f;
 
-    [Header("Wall")]
-    [SerializeField] private float wallLifeTime = 10f;
+    [Header("Shield")]
+    [SerializeField] private float shieldLifeTime = 10f;
     [SerializeField] private float spawnDistanceBehind = 5f;
     [SerializeField] private float spawnHeight = 0.5f;
 
-    [Header("UI")]
-    [SerializeField] private Image cooldownIcon;
+    //UI
+    private Image cooldownIcon;
 
     private float lastSpawnTime = -999f;
 
-    private void Update()
+    public override void OnNetworkSpawn()
     {
         if (!IsOwner) return;
 
-        UpdateCooldownIcon();
+        //Récuperer l'icon UI
+        GameObject iconObject = GameObject.Find("RearShieldIcon");
 
-        if (Input.GetKeyDown(KeyCode.F))
+        if (iconObject != null)
         {
-            TrySpawnRearWall();
+            cooldownIcon = iconObject.GetComponent<Image>();
+        }
+        else
+        {
+            Debug.LogWarning("RearWallCooldownIcon introuvable dans la scène.");
         }
     }
 
-    private void TrySpawnRearWall()
+    private void Update()
     {
+        //Action par le propriétaire
+        if (!IsOwner) return;
+
+        //Rechargement du shield
+        UpdateCooldownIcon();
+
+        //F -> Shield
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            TrySpawnRearShield();
+        }
+    }
+
+    private void TrySpawnRearShield()
+    {
+        //Cooldown terminé ?
         if (Time.time - lastSpawnTime < cooldownDuration)
         {
             return;
@@ -43,6 +64,7 @@ public class RearWallSpawner : NetworkBehaviour
         SpawnRearWallServerRpc();
     }
 
+    //Mis-à-jour UI shield
     private void UpdateCooldownIcon()
     {
         if (cooldownIcon == null) return;
@@ -62,33 +84,37 @@ public class RearWallSpawner : NetworkBehaviour
         }
     }
 
+    //Spawn par le server à l'arrière du véhicule
     [ServerRpc]
     private void SpawnRearWallServerRpc()
     {
-        if (rearWallPrefab == null)
+        if (rearShieldPrefab == null)
         {
-            Debug.LogWarning("Prefab du mur manquant.");
+            Debug.LogWarning("Prefab du bouclier manquant.");
             return;
         }
 
+        //Position et instantiation
         Vector3 spawnPosition = transform.position - transform.forward * spawnDistanceBehind;
         spawnPosition.y += spawnHeight;
 
         Quaternion spawnRotation = transform.rotation;
 
-        GameObject wall = Instantiate(
-            rearWallPrefab,
+        GameObject shield = Instantiate(
+            rearShieldPrefab,
             spawnPosition,
             spawnRotation
         );
 
-        NetworkTimedDestroy timedDestroy = wall.GetComponent<NetworkTimedDestroy>();
+        //Temps de vie du bouclier
+        NetworkTimedDestroy timedDestroy = shield.GetComponent<NetworkTimedDestroy>();
         if (timedDestroy != null)
         {
-            timedDestroy.SetLifeTime(wallLifeTime);
+            timedDestroy.SetLifeTime(shieldLifeTime);
         }
 
-        NetworkObject networkObject = wall.GetComponent<NetworkObject>();
+        //Spawn
+        NetworkObject networkObject = shield.GetComponent<NetworkObject>();
 
         if (networkObject != null)
         {
@@ -96,7 +122,7 @@ public class RearWallSpawner : NetworkBehaviour
         }
         else
         {
-            Debug.LogError("Le prefab du mur doit avoir un NetworkObject.");
+            Debug.LogError("Le prefab du shield doit avoir un NetworkObject.");
         }
     }
 }
