@@ -308,6 +308,7 @@ GameObject:
   - component: {fileID: 6994052509842758560}
   - component: {fileID: 4323840593275625628}
   - component: {fileID: -1439555678153545543}
+  - component: {fileID: 597576547072505639}
   m_Layer: 0
   m_Name: Free Racing Car Variant 1
   m_TagString: Untagged
@@ -503,6 +504,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowTopMostFoldoutHeaderGroup: 1
   bodyRenderer: {fileID: 2847545815383208732}
+--- !u!114 &597576547072505639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459993962985323373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6c0be61502bb534f922ebb746851216, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowTopMostFoldoutHeaderGroup: 1
+  NetworkRigidbodyBaseExpanded: 0
+  UseRigidBodyForMotion: 0
+  AutoUpdateKinematicState: 1
+  AutoSetKinematicOnDespawn: 1
 --- !u!1 &1827211309230622966
 GameObject:
   m_ObjectHideFlags: 0

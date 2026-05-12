@@ -88,6 +88,8 @@ public class CarHealth : NetworkBehaviour
         bool isFrontHit = Vector3.Dot(contact.normal, transform.forward) < -0.5f;
         bool otherFrontHit = Vector3.Dot(contact.normal, otherCar.transform.forward) < 0.5f;
 
+        bool validDamageCollision = false;
+
         if (isFrontHit && otherFrontHit)
         {
             TakeDamage(collisionDamage);
@@ -98,6 +100,17 @@ public class CarHealth : NetworkBehaviour
         {
             otherCar.TakeDamage(collisionDamage);
             Debug.Log("Collision latérale !");
+        }
+
+        //Reaction des spectateurs seulement si la collision est avec une autre voiture
+        if (validDamageCollision)
+        {
+            SpectatorManager manager = FindFirstObjectByType<SpectatorManager>();
+
+            if (manager != null)
+            {
+                manager.TriggerCollisionReaction();
+            }
         }
     }
 
