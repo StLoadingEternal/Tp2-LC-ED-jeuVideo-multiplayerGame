@@ -2667,7 +2667,7 @@ MonoBehaviour:
   - {fileID: 1937032589}
   - {fileID: 51292616}
   crowdAudioSource: {fileID: 635541466}
-  collisionCheerClip: {fileID: 8300000, guid: 19e351011df5c9c44adeea0766e16711, type: 3}
+  collisionCheerClip: {fileID: 8300000, guid: fbe5d4b569149f54b9d9017eafe038e1, type: 3}
   reactionCooldown: 2
 --- !u!1 &293376097
 GameObject:
@@ -6972,7 +6972,7 @@ AudioSource:
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0

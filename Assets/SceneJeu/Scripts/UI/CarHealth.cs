@@ -84,8 +84,13 @@ public class CarHealth : NetworkBehaviour
         CarHealth otherCar = collision.gameObject.GetComponent<CarHealth>();
         if (otherCar == null) return;
 
-        // Évite de se détecter soi-même si le collider appartient à la même voiture.
+        // Évite de se détecter soi-même.
         if (otherCar == this) return;
+
+        // Empêche la collision d'être traitée deux fois.
+        // Une seule des deux voitures applique les dégâts.
+        if (NetworkObjectId > otherCar.NetworkObjectId) return;
+
 
         ContactPoint contact = collision.GetContact(0);
 
