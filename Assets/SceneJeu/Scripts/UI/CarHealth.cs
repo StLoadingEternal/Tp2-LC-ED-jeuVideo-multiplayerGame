@@ -84,21 +84,37 @@ public class CarHealth : NetworkBehaviour
         CarHealth otherCar = collision.gameObject.GetComponent<CarHealth>();
         if (otherCar == null) return;
 
+        // Évite de se détecter soi-même si le collider appartient à la même voiture.
+        if (otherCar == this) return;
+
         ContactPoint contact = collision.GetContact(0);
-        bool isFrontHit = Vector3.Dot(contact.normal, transform.forward) < -0.5f;
-        bool otherFrontHit = Vector3.Dot(contact.normal, otherCar.transform.forward) < 0.5f;
+
+        // Convertit le point de contact dans l'espace local de chaque voiture.
+        Vector3 localContactThisCar = transform.InverseTransformPoint(contact.point);
+        Vector3 localContactOtherCar = otherCar.transform.InverseTransformPoint(contact.point);
+
+
+        // Si Z est positif, le contact est devant la voiture.
+        bool thisCarFrontHit = localContactThisCar.z > 0f;
+        bool otherCarFrontHit = localContactOtherCar.z > 0f;
 
         bool validDamageCollision = false;
 
-        if (isFrontHit && otherFrontHit)
+        if (thisCarFrontHit && otherCarFrontHit)
         {
             TakeDamage(collisionDamage);
             otherCar.TakeDamage(collisionDamage);
+
+            validDamageCollision = true;
+
             Debug.Log("Collision frontale !");
         }
-        else if (isFrontHit)
+        else if (thisCarFrontHit)
         {
             otherCar.TakeDamage(collisionDamage);
+
+            validDamageCollision = true;
+
             Debug.Log("Collision latérale !");
         }
 
@@ -112,6 +128,7 @@ public class CarHealth : NetworkBehaviour
                 manager.TriggerCollisionReaction();
             }
         }
+
     }
 
     public void TakeDamage(int damage)
