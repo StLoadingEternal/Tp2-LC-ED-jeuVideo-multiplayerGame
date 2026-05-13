@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class ReturnToIntro : MonoBehaviour
 {
-    [SerializeField] private string introSceneName = "SceneIntroduction";
+    private string introSceneName = "Intro";
 
     private void Update()
     {
